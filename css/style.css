@@ -14,6 +14,14 @@ div.navtop {
     border-bottom: 1px solid #b8cfd4;
 }
 
+div.content {
+    margin: 0px;
+    padding: 0px;
+    height: 550px;
+    width: 100%;
+    background-color: white;
+}
+
 div.background-image {
     background-color: #201649;
     padding: 0px;
@@ -31,19 +39,17 @@ div.background-image img {
     padding: 0px;
 }
 
+div.background-image p {
+    text-align: center;
+    font-size: 15px;
+    color: #4f5e8a
+}
+
 div ul li {
     font-size: 20px;
     display: inline-block;
     padding: 5px;
     text-align: center;
-}
-
-div.content {
-    margin: 0px;
-    padding: 0px;
-    height: 550px;
-    width: 100%;
-    background-color: white;
 }
 
 .footer {
